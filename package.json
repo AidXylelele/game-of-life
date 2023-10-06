@@ -1,0 +1,22 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is laboratory work No. 1, performed by Vladislav, student of the IM-11 group",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Vladyslav Shevyrov",
+  "license": "ISC",
+  "dependencies": {
+    "draftlog": "^1.0.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/register": "^7.22.15",
+    "jest": "^29.7.0"
+  }
+}
