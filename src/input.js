@@ -10,7 +10,7 @@ export const readInputFile = (filePath) => {
   const isValidRowsCount = rows === matrix.length;
 
   const isValidColumnsCount = matrix.every(
-    (row) => row.split("").length === columns
+    (row) => row.length === columns
   );
 
   if (!isValidColumnsCount || !isValidRowsCount) {
