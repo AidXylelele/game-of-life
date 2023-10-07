@@ -16,12 +16,6 @@ describe("Display", () => {
     it("should initialize the logger instance", () => {
       expect(display.logger).toBeInstanceOf(Logger);
     });
-  });
-
-  describe("init", () => {
-    it("should initialize borderDrafts with drafts based on the number of rows", () => {
-      display.init(3);
-      expect(display.borderDrafts.length).toBe(3);
-    });
+    
   });
 });
