@@ -31,11 +31,11 @@ describe("Board", () => {
   });
 
   test("_setMatrixValues sets matrix correctly", () => {
-    const inputMatrix = ["x0", "0x"];
+    const inputMatrix = ["0x", "x0"];
     board._setMatrixValues(inputMatrix);
     expect(board.matrix).toEqual([
-      [1, 0],
       [0, 1],
+      [1, 0],
     ]);
   });
 
