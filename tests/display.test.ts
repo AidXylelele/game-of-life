@@ -10,7 +10,7 @@ describe("Display", () => {
 
   describe("Initialization", () => {
     it("should initialize the borderDrafts array as empty", () => {
-      expect(display.borderDrafts).toEqual([]);
+      expect(display.borderDrafts).toEqual({});
     });
 
     it("should initialize the logger instance", () => {
